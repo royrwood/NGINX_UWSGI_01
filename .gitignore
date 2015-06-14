@@ -1,5 +1,5 @@
 venv
 data
 nginx.pid
-logs
 *.pyc
+logs/*
