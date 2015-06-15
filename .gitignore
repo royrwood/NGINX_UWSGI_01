@@ -1,5 +1,5 @@
 venv
+uwsgi.pid
 nginx.pid
 *.pyc
 logs/*
-uwsgi.pid
