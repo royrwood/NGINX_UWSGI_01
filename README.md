@@ -10,6 +10,7 @@ Note that the NGINX [alert] can be ignored (it tries to do some logging before s
 and the default log location, /var/log/nginx/error.log, is not writable by non-root accounts).
 And yes, in the following examples, I am running in a Python virtual env, "venv".  
 
+```
 (venv)rrwood@ubuntu-HP-DV2000:~/Python$ ls -l
 total 4
 drwxrwxr-x 6 rrwood rrwood 4096 Jun 14 20:21 flask_01
@@ -35,5 +36,5 @@ This is test.txt.
 
 (venv)rrwood@ubuntu-HP-DV2000:~/Python/flask_01$ curl http://localhost:8000/flask/flask_app ; echo
 <h1 style='color:blue'>Hello There!</h1>
-
+```
 
